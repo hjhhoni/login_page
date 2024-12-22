@@ -2,14 +2,6 @@
 ![根目录](./static/首页.png)
 ![根目录](./static/错误页.png)
 ![根目录](./static/img_1.png)
-<p align="left">
-    <a href=''>
-      <img src='https://img.shields.io/badge/Paper-arXiv-green?style=plastic&logo=arXiv&logoColor=green' alt='Paper arXiv'>
-    </a>
-    <a href=''>
-      <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
-    </a>
-</p>
 ### _思路_
 在项目根目录下创建templates文件夹来存放用于浏览器渲染的html文件，并在其中创建signin.html作为登录页面，访问本地5000端口/signin时渲染，登录成功就渲染hello.html，失败就返回登录错误信息并回到signin.html重新登录。
 ### _具体做法_
@@ -30,3 +22,12 @@ flask run # 运行项目(到项目根目录启动终端)
 
 ---
 > 人生苦短，我用python！
+
+<p align="left">
+    <a href=''>
+      <img src='https://img.shields.io/badge/Paper-arXiv-green?style=plastic&logo=arXiv&logoColor=green' alt='Paper arXiv'>
+    </a>
+    <a href=''>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=plastic&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a>
+</p>
